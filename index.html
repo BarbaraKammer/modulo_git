@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Informe dois números:</h1>
+    <form id="meu-formulario">
+        <input type="number" id="campoA" required placeholder="Campo A">
+        <input type="number" id="campoB" required placeholder="Campo B">
+        <button id="btn-enviar" type="submit">Enviar</button>
+    </form>
+    <p class="success-message">Formulário válido! O número B é maior que o número A.</p>
+    <p class="error-message">Erro! O número B deve ser maior que o número A.</p>
+
+    <script src="./main.js"></script>
+</body>
+</html>

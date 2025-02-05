@@ -1,0 +1,17 @@
+.success-message, .error-message {
+    display: none; /* Garante que as mensagens comecem ocultas */
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.success-message {
+    background-color: #27ae60;
+}
+
+.error-message {
+    background-color: red;
+}
