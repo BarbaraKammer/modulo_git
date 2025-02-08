@@ -20,7 +20,7 @@ describe ('Testes para Home', () => {
         // Implemente os comandos Cypress para alterar um contato existente
         cy.get('.edit').first().click();
         cy.get('input[type="text"]').clear().type('Contato Editado');
-        cy.get('input[type="email"]').clear().type('thiagotesteeditado@gmail.com');
+        cy.get('input[type="email"]').clear().type('barbaratesteeditado@gmail.com');
         cy.get('input[type="tel"]').clear().type('0000');
         cy.get('.alterar').click();
 
